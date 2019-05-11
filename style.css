@@ -1,0 +1,64 @@
+body {
+    text-align: center;
+    height:95vh;
+    background-image:linear-gradient(black, grey); 
+    background-attachment: fixed;
+}
+
+.content {
+    display:flex;
+    flex-direction:column;
+    justify-content: flex-start;
+    align-items: center;
+    height:100%;
+    width:100%;
+}
+
+.box{
+    width:50%;
+    height:50%;
+    background-color:rgb(225, 231, 225); 
+    border: 1px solid rgb(50, 79, 47);
+}
+
+table, td, th{
+    border: 1px solid  rgb(50, 79, 47);
+}
+
+table {
+    width:100%;
+}
+
+.header {
+    background-color: rgb(158, 192, 127);
+    font-size:180%;
+}
+
+.header2 {
+    background-color: rgb(205, 236, 176);
+}
+
+#searchBy{
+    width:50%;
+}
+
+.searchLabel {
+    width:50%;
+}
+
+.output {
+    background-color: rgb(225, 231, 225);
+    text-align:left;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+
+.grey{
+    background-color: rgb(225, 231, 225);
+}
+
+#result {
+    text-align:left;
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Customer Database</title>
+    <link rel="stylesheet" type="text/css" href="../css/style.css" />
+    <script src="../javascript/CustomerData.js"></script>
+    <script src="../javascript/js.js"></script>
+</head>
+
+<body>
+
+    <div class="content">
+        <div class="box">
+            <table>
+                <tr>
+                    <th colspan="2" class="header">
+                        Welcome to the Customer Database
+                    </th>
+                </tr>
+                <tr>
+                    <td id="searchBy" colspan="2" class="header2">
+                        <h3>Search By:</h3>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="searchLabel" >Customer Id</td>
+                    <td >
+                        <input type="text" id="id" onkeyup="searchId()" />
+                    </td>
+                </tr>
+                <tr>
+                    <td class="searchLabel">Last Name</td>
+                    <td >
+                        <input type="text" id="lastName" onkeyup="searchLastName()" />
+                    </td>
+                </tr>
+                <tr>
+                    <td class="searchLabel" >Company Name</td>
+                    <td >
+                        <input type="text" id="companyName" onkeyup="searchCompanyName()" />
+                    </td>
+                </tr>
+                <tr>
+                    <td class="searchLabel" >Phone Number</td>
+                    <td >
+                        <input type="text" id="phoneNumber" onkeyup="searchPhone()" />
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" class="header2">
+                        <h3>Search Results:</h3>
+                    </td>
+                </tr>
+            </table>
+            <table id="result" class="grey">
+            </table>
+        </div>
+    </div>
+
+</body>
+
+</html>
